@@ -6,7 +6,7 @@ int main(){
 	cout << "Enter the password" << endl;
 	cin >> password;
 	while(password!=qwerty){
-		cout << "Incorrect password" << endl << "Enter again" << endl;
+		cout << "Incorrect password!" << endl << "Enter again" << endl;
 		cin >> password;
 	}
 	if (password==qwerty){
